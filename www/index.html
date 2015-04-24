@@ -35,7 +35,7 @@
       $scope.origin = "conestoga college, Kitchener, ON, Canada";
       $scope.destination = "Conestoga College, Waterloo, ON, Canada";
       $scope.directionsChanged = function() {
-        overviewPath = this.directions.routes[0].overview_path; //this overview_path is not working
+        overviewPath = this.directions.routes[0].overview_path; 
         $scope.map.getStreetView().setPosition(overviewPath[0]);
       }
 
