@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.salesucation.youarehere" version="0.0.3">
 
-    <name>You are here</name>
+    <name>Virtual Road Trip</name>
 
     <description>
-        You are here example
+        Virtual Road Trip
     </description>
     <content src="www/index.html" />
-    <author href="https://rhildred.github.io" email="rhildred@gmail.com">
-        Rich Hildred and Mobile App Class of 2015
+    <author href="https://mjallala.github.io" email="m.jallala@gmail.com">
+        Mahmoud Jallala and Mobile App Class of 2015
     </author>
     <!-- We'll include the Barcode plugin as an example -->
     <gap:plugin name="de.appplant.cordova.plugin.badge" />
